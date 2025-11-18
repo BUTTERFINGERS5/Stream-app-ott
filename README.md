@@ -1,16 +1,40 @@
-# React + Vite
+# Streaming App (Netflix Clone)
+A responsive movie streaming web application built using React, Firebase, and the TMDB API. The project focuses on user authentication, dynamic movie data, reusable components, and smooth UI performance.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Overview
+The Streaming App is a front-end project modeled after modern OTT platforms.  
+It features user login and signup with Firebase Authentication, dynamic movie listing using the TMDB API, and a clean, responsive UI built with React and Tailwind CSS.  
+The application demonstrates practical implementation of component-based architecture, API integration, state management, and real-world front-end development patterns.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
+- User authentication (Sign In and Sign Up) using Firebase  
+- Dynamic movie data fetched from the TMDB API  
+- Reusable React components for cleaner architecture  
+- Responsive and modern UI  
+- Category-wise movie sections  
+- Hover effects and smooth UI transitions  
+- Front-end routing and protected pages  
+- State management using React Hooks  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
+**Frontend:**  
+- React.js  
+- JavaScript (ES6+)  
+- Tailwind CSS  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Backend/Services:**  
+- Firebase Authentication  
+- TMDB API  
+
+**Tools:**  
+- Git and GitHub  
+- VS Code  
+- npm / yarn  
+
+
